@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_resources",
+  "info": {
+    "name": "AdditionalResources",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}
